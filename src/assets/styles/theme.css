@@ -1,0 +1,13 @@
+/* 主题色配置 */
+:root {
+    --white: #fff;
+    --themeColor: #1989fa;
+    --thinThemeColor: #EBF5FF;
+}
+[data-theme="light"]:root{
+    --van-blue: var(--themeColor);
+}
+[data-theme="dark"]:root{
+    --van-blue: var(--thinThemeColor);
+}
+
